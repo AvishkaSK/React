@@ -1,7 +1,11 @@
-const Home = () => {
-    return(
+import HeroSection from '../components/Organisms/HeroSection';
 
-    <h1>This is Home Page</h1>
-    );
-}
+const Home = () => {
+  return (
+    <>
+      <HeroSection />
+    </>
+  );
+};
+
 export default Home;
