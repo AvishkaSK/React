@@ -1,15 +1,19 @@
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
-const footer = () => {
-return(
+const Footer = () => {
+  return (
     <footer className="bg-dark text-light py-2 mt-2">
-
-       <Container>
-            <p>&copy; 2026 Sports Shop . All  Rights Reserved </p>
-       </Container>
-
+      <Container>
+        <Row>
+          <Col className="text-center">
+            <p className="text-white mb-0">
+              &copy; 2026 Sports Shop. All Rights Reserved
+            </p>
+          </Col>
+        </Row>
+      </Container>
     </footer>
-    
-);
-}
-export default footer;
+  );
+};
+
+export default Footer;
