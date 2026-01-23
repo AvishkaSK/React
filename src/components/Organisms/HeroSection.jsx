@@ -7,7 +7,7 @@ const HeroSection = () => {
       className="position-relative overflow-hidden"
       style={{
         background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-        minHeight: '400px'
+        minHeight: '530px'
       }}
     >
       <div className="container">
